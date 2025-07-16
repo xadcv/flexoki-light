@@ -1,41 +1,41 @@
 # Main background, empty for terminal default, need to be empty if you want transparent background
-theme[main_bg]="#0d0221"
+theme[main_bg]="#240037"
 
 # Main text color
-theme[main_fg]="#ff007f"
+theme[main_fg]="#ffffff"
 
 # Title color for boxes
-theme[title]="#00ffff"
+theme[title]="#ffff66"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#ff0080"
+theme[hi_fg]="#df00ff"
 
 # Background color of selected item in processes box
-theme[selected_bg]="#2a0040"
+theme[selected_bg]="#8f00ff"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#ff0080"
+theme[selected_fg]="#ffff66"
 
 # Color of inactive/disabled text
-theme[inactive_fg]="#8b00ff"
+theme[inactive_fg]="#8f00ff"
 
 # Color of text appearing on top of graphs, i.e uptime and current network graph scaling
 theme[graph_text]="#ffffff"
 
 # Background color of the percentage meters
-theme[meter_bg]="#1a0033"
+theme[meter_bg]="#240037"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="#ff007f"
+theme[proc_misc]="#8f00ff"
 
 # CPU, Memory, Network, Proc box outline colors
-theme[cpu_box]="#ff007f" #Hot Pink
-theme[mem_box]="#00ffff" #Cyan
-theme[net_box]="#ff0080" #Neon Pink
-theme[proc_box]="#8b00ff" #Electric Purple
+theme[cpu_box]="#8f00ff" #Hot Pink
+theme[mem_box]="#df00ff" #Cyan
+theme[net_box]="#8f00ff" #Neon Pink
+theme[proc_box]="#df00ff" #Electric Purple
 
 # Box divider line and small boxes line color
-theme[div_line]="#9400d3"
+theme[div_line]="#8f00ff"
 
 # Temperature graph color (Cyan -> Pink -> Red)
 theme[temp_start]="#00ffff"
