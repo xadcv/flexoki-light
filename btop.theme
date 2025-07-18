@@ -1,83 +1,83 @@
 # Main background, empty for terminal default, need to be empty if you want transparent background
-theme[main_bg]="#240037"
+theme[main_bg]="#fffcf0"
 
 # Main text color
-theme[main_fg]="#ffffff"
+theme[main_fg]="#100f0f"
 
 # Title color for boxes
-theme[title]="#ffff66"
+theme[title]="#d0a215"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#df00ff"
+theme[hi_fg]="#ce5d97"
 
 # Background color of selected item in processes box
-theme[selected_bg]="#8f00ff"
+theme[selected_bg]="#dad8ce"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#ffff66"
+theme[selected_fg]="#100f0f"
 
 # Color of inactive/disabled text
-theme[inactive_fg]="#8f00ff"
+theme[inactive_fg]="#6f6e69"
 
 # Color of text appearing on top of graphs, i.e uptime and current network graph scaling
-theme[graph_text]="#ffffff"
+theme[graph_text]="#6f6e69"
 
 # Background color of the percentage meters
-theme[meter_bg]="#240037"
+theme[meter_bg]="#403e3c"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="#8f00ff"
+theme[proc_misc]="#878580"
 
 # CPU, Memory, Network, Proc box outline colors
-theme[cpu_box]="#8f00ff" #Hot Pink
-theme[mem_box]="#df00ff" #Cyan
-theme[net_box]="#8f00ff" #Neon Pink
-theme[proc_box]="#df00ff" #Electric Purple
+theme[cpu_box]="#ce5d97" #Magenta
+theme[mem_box]="#3aa99f" #Cyan
+theme[net_box]="#ce5d97" #Magenta
+theme[proc_box]="#8b7ec8" #Purple
 
 # Box divider line and small boxes line color
-theme[div_line]="#8f00ff"
+theme[div_line]="#b7b5ac"
 
-# Temperature graph color (Cyan -> Pink -> Red)
-theme[temp_start]="#00ffff"
-theme[temp_mid]="#ff007f"
-theme[temp_end]="#ff0040"
+# Temperature graph color (Cyan -> Magenta -> Red)
+theme[temp_start]="#3aa99f"
+theme[temp_mid]="#ce5d97"
+theme[temp_end]="#d14d41"
 
-# CPU graph colors (Purple -> Pink -> Cyan)
-theme[cpu_start]="#8b00ff"
-theme[cpu_mid]="#ff007f"
-theme[cpu_end]="#00ffff"
+# CPU graph colors (Purple -> Magenta -> Cyan)
+theme[cpu_start]="#8b7ec8"
+theme[cpu_mid]="#ce5d97"
+theme[cpu_end]="#3aa99f"
 
-# Mem/Disk free meter (Purple -> Pink -> Blue)
-theme[free_start]="#9400d3"
-theme[free_mid]="#ff007f"
-theme[free_end]="#0080ff"
+# Mem/Disk free meter (Purple -> Magenta -> Blue)
+theme[free_start]="#8b7ec8"
+theme[free_mid]="#ce5d97"
+theme[free_end]="#4385be"
 
-# Mem/Disk cached meter (Blue -> Cyan)
-theme[cached_start]="#0080ff"
-theme[cached_mid]="#00bfff"
-theme[cached_end]="#00ffff"
+# Mem/Disk cached meter (Blue -> Mid -> Cyan)
+theme[cached_start]="#4385be"
+theme[cached_mid]="#3e97ae"
+theme[cached_end]="#3aa99f"
 
-# Mem/Disk available meter (Pink -> Purple)
-theme[available_start]="#ff007f"
-theme[available_mid]="#ff0080"
-theme[available_end]="#9400d3"
+# Mem/Disk available meter (Magenta -> Mid -> Purple)
+theme[available_start]="#ce5d97"
+theme[available_mid]="#ac6daf"
+theme[available_end]="#8b7ec8"
 
 # Mem/Disk used meter (Cyan -> Green -> Yellow)
-theme[used_start]="#00ffff"
-theme[used_mid]="#00ff41"
-theme[used_end]="#ffff00"
+theme[used_start]="#3aa99f"
+theme[used_mid]="#879a39"
+theme[used_end]="#d0a215"
 
-# Download graph colors (Pink -> Purple)
-theme[download_start]="#ff007f"
-theme[download_mid]="#ff0080"
-theme[download_end]="#9400d3"
+# Download graph colors (Magenta -> Mid -> Purple)
+theme[download_start]="#ce5d97"
+theme[download_mid]="#ac6daf"
+theme[download_end]="#8b7ec8"
 
-# Upload graph colors (Cyan -> Blue)
-theme[upload_start]="#00ffff"
-theme[upload_mid]="#00bfff"
-theme[upload_end]="#0080ff"
+# Upload graph colors (Cyan -> Mid -> Blue)
+theme[upload_start]="#3aa99f"
+theme[upload_mid]="#3e97ae"
+theme[upload_end]="#4385be"
 
-# Process box color gradient for threads, mem and cpu usage (Purple -> Pink -> Cyan)
-theme[process_start]="#8b00ff"
-theme[process_mid]="#ff007f"
-theme[process_end]="#00ffff"
+# Process box color gradient for threads, mem and cpu usage (Purple -> Magenta -> Cyan)
+theme[process_start]="#8b7ec8"
+theme[process_mid]="#ce5d97"
+theme[process_end]="#3aa99f"

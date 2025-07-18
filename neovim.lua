@@ -1,12 +1,12 @@
 return {
 	{
-		"artanikin/vim-synthwave84",
-		name = "synthwave84",
+		"kepano/flexoki-neovim",
+		name = "flexoki",
 	},
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "synthwave84",
+			colorscheme = "flexoki",
 		},
 	},
 }
